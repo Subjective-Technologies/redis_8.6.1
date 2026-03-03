@@ -12,7 +12,7 @@
 
 #define _BSD_SOURCE
 
-#if defined(__linux__)
+#if defined(__linux__) || defined(__CYGWIN__)
 #define _GNU_SOURCE
 #define _DEFAULT_SOURCE
 #endif
